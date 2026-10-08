@@ -1,6 +1,6 @@
 <!-- Header Banner -->
 <div align="center">
-  <h1>🤖 PRIME-Retriever: Hybrid RAG Engine</h1>
+  <h1>FuseRank: Hybrid RAG Engine</h1>
   <p><i>Next-generation document intelligence powered by Hybrid Search and Cross-Encoder Reranking.</i></p>
   
   <!-- Replace 'main.py.png' with the actual filename of your uploaded screenshot -->
@@ -94,10 +94,10 @@ for idx, node_with_score in enumerate(final_nodes, 1):
     print(f"--- Result {idx} (Score: {node_with_score.score:.4f}) ---")
     print(f"File: {node_with_score.node.metadata.get('file_name', 'Unknown')}")
     print(f"Content:\n{node_with_score.node.text}\n")
-
+```
 
 📚 Dataset
-The system was validated using the following PDFs placed in ./storage/data/:
+The system was validated using the following PDFs placed in ./assest/:
 
 AI for Dummies.pdf
 
