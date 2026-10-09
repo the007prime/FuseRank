@@ -1,0 +1,18 @@
+# Core Framework
+llama-index-core
+
+# Vector Database & Integrations
+chromadb
+llama-index-vector-stores-chroma
+
+# Embeddings & Language Models
+llama-index-embeddings-huggingface
+llama-index-llms-mock
+
+# Processing & Retrieval Tools
+llama-index-postprocessor-sentence-transformer-rerank
+llama-index-retrievers-bm25
+
+# File Readers
+llama-index-readers-file
+pypdf
