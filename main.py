@@ -83,11 +83,12 @@ pdf_reader = SimpleDirectoryReader(
 
 documents = pdf_reader.load_data() #--> contains all the extracted pdf data 
 
-pipeline.docstore.persist(DOCSTORE_PATH)
 
 # making multiple chunks from single document to manage easily 
 nodes = pipeline.run(documents=documents, show_progress=True)
 print(f"this is the number of total chunks created {len(nodes)}")
+
+pipeline.docstore.persist(DOCSTORE_PATH)
 
 index = VectorStoreIndex.from_vector_store(vectorstore) #connects LlamaIndex to data that is already embedded and saved in vector database without re-chunking or re-embedding
 
