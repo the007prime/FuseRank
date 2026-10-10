@@ -10,7 +10,7 @@
 <br />
 
 ## 📖 Overview
-**PRIME-Retriever** is a high-performance Retrieval-Augmented Generation (RAG) pipeline designed to extract deep insights from complex PDF documents. Unlike standard RAG systems that rely solely on semantic vector search, this engine uses a **Hybrid Retrieval approach**, combining dense semantic search with sparse keyword matching (BM25), followed by a precision cross-encoder reranker.
+**FuseRank** is a high-performance Retrieval-Augmented Generation (RAG) pipeline designed to extract deep insights from complex PDF documents. Unlike standard RAG systems that rely solely on semantic vector search, this engine uses a **Hybrid Retrieval approach**, combining dense semantic search with sparse keyword matching (BM25), followed by a precision cross-encoder reranker.
 
 For this implementation, the engine was tested on two foundational AI documents:
 1. **"AI for Dummies"**
